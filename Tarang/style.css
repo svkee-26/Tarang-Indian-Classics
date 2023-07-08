@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+body{
+      background-color: rgb(13, 9, 0);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 27px;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 30;
+    align-items: center;
+    background-color: rgb(12, 0, 0);
+    color: azure;
+}
+nav ul li{
+    padding: 17px;
+}
+.brand img{
+    width: 70px;
+    padding-bottom: 0;
+    padding-top: 0%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.container{
+     min-height: 65vh;
+     background-color: black;
+     color: rgb(103, 214, 6);
+     display: flex;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     margin: 23px auto;
+     width: 100%;
+     background-image: url(casss.jpg);
+     border-radius: 4px;
+}
+.bottom{
+    position: sticky;
+    background-color: rgba(8, 7, 0, 0.993);
+    padding-bottom: 15px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    
+    
+}
+.icons{
+    align-items: center;
+    display: flex;
+    padding: 3px;
+    margin-top: 30px;
+    cursor: pointer;
+    
+}
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+.songitem{
+       height: 50px;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       background-color: white;
+       color: black;
+       border-radius: 34px;
+       width: 100%;
+       margin: 12px 0;
+       
+}
+.songitem img{
+    width: 80px;
+    border-radius: 20px;
+}
+.songlist{
+     justify-content: space-around;
+     height: 30px;
+     padding-top: 40px;
+    
+}
+.songlistplay i{
+    cursor: pointer;
+    
+}
+.hd{
+    color: darkgreen;
+}
+@media only screen and (max-width: 1100px) {
+    body {
+      background-color: red;
+    }
+  }
+
+.songInfo{
+    position: absolute;
+    left: 10vw;
+    font-family: 'Varela Round', sans-serif;
+}
+
+#und{
+    cursor: pointer;
+}
